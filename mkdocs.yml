@@ -1,0 +1,24 @@
+site_name: Pulse Package Manager
+
+nav: 
+  - Home: index.md
+  - About: about.md
+  - Docs: docs.md
+  - Blog: blog.md
+
+repo_url: https://github.com/pulsepm/pulse
+
+theme:
+  name: material
+  #custom_dir: overrides
+  features:
+    - header.autohide
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - git-committers:
+      repository: pulsepm/pulse
+      branch: main
+  
+  - git-authors
