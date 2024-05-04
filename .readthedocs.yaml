@@ -15,6 +15,9 @@ build:
     # rust: "1.64"
     # golang: "1.19"
 
+mkdocs:
+  configuration: mkdocs.yml
+
 # Optionally build your docs in additional formats such as PDF and ePub
 # formats:
 #    - pdf
