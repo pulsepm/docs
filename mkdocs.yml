@@ -4,21 +4,59 @@ nav:
   - Home: index.md
   - About: about.md
   - Docs: docs.md
-  - Blog: blog.md
+  - Blog:
+    - blog/index.md
 
 repo_url: https://github.com/pulsepm/pulse
 
 theme:
+  language: en
   name: material
-  #custom_dir: overrides
+  custom_dir: overrides
   features:
     - header.autohide
+    - announce.dismiss
+    - search.suggest
+    - navigation.tabs
+    - navigation.expand
+    - navigation.path
+    - toc.integrate
+    - toc.follow
+    - navigation.top
+  logo: assets/plogo.png
   icon:
     repo: fontawesome/brands/github
+  
+  palette: 
+    # Palette toggle for light mode
+    
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: purple
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+      
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
 
 plugins:
+  - search
+  - blog
   - git-committers:
-      repository: pulsepm/pulse
+      repository: pulsepm/docs
       branch: main
   
   - git-authors
+
+extra_css:
+  - stylesheets/extra.css
