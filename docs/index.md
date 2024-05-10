@@ -10,6 +10,6 @@ This tool offers a range of features to enhance your project management experien
 - Compile source code into AMX. 
 - Launch projects or applications with ease to start execution. 
 - Incorporate dependencies, packages, or plugins effortlessly to extend project functionality. 
-- Simplify the removal of unnecessary components to declutter project environments. 
+- Simplify the removal of unnecessary components to declutter project environments.
 - Verify the presence of essential dependencies or configurations for a stable setup. 
 - Execute projects or applications in various contexts or with modified parameters to adapt to changing project requirements.
