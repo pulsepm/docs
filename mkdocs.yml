@@ -4,7 +4,7 @@ nav:
   - Home: index.md
   - About: about.md
   - Docs: 
-    - docs/index.md
+    - docs/index.md 
     - User's guide: 
       - docs/user's-guide/index.md
       - Commands:
