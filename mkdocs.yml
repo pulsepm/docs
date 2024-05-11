@@ -13,6 +13,12 @@ nav:
           - docs/user's-guide/Commands/configure/index.md
         - pulse init:
           - docs/user's-guide/Commands/init/index.md
+        - pulse pods:
+          - docs/user's-guide/Commands/pods/index.md
+        - pulse install:
+          - docs/user's-guide/Commands/install/index.md
+        - pulse ensure:
+          - docs/user's-guide/Commands/ensure/index.md
   - Blog:
     - blog/index.md
 
