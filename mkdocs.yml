@@ -7,6 +7,8 @@ nav:
     - docs/index.md 
     - User's guide: 
       - docs/user's-guide/index.md
+      - Instructions:
+        - docs/user's-guide/Instructions/index.md
       - Commands:
         - docs/user's-guide/Commands/index.md
         - pulse configure:
@@ -19,6 +21,10 @@ nav:
           - docs/user's-guide/Commands/install/index.md
         - pulse ensure:
           - docs/user's-guide/Commands/ensure/index.md
+    - Developer's guide:
+      - docs/developer's-guide/index.md
+      - Instructions:
+        - docs/developer's-guide/Instructions/index.md
   - Blog:
     - blog/index.md
 
